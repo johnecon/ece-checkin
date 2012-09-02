@@ -1,0 +1,4 @@
+cron:
+- description: new daily summary job
+  url: /report/daily
+  schedule: every 24 hours

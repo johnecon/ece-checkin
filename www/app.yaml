@@ -1,0 +1,27 @@
+
+application: johnnyecon
+version: 1
+runtime: python
+api_version: 1
+threadsafe: true
+
+default_expiration: "4d 5h"
+
+handlers:
+- url: /db/.*
+  script: db/transaction.py
+
+- url: /report/daily
+  script: crons/dailyReport.py
+
+- url: /report/checkins
+  script: crons/checkinReport.py
+
+- url: /
+  static_files: static_files/index.html
+  upload: static/(.*\.(html))
+  secure: optional
+
+- url: /
+  static_dir: static_files
+  secure: optional

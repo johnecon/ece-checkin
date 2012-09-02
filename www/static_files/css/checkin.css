@@ -1,0 +1,90 @@
+a.menu-item {
+    display: block;
+    padding: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px #768395;
+    background: -webkit-linear-gradient(top, #fff, #ddd);
+}
+.menu-item {
+    display: block;
+    padding: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px #768395;
+    background: -webkit-linear-gradient(top, #fff, #ddd);
+}
+.list-item-property {
+    -webkit-box-flex: 1;
+    box-flex: 1;
+    /*@include display-box;*/
+    -webkit-box-align: center;
+    box-align: center;
+    -webkit-box-orient: horizontal;
+    box-orient: horizontal;
+    font-style: italic;
+}
+.gpBtn {
+    background: url(../resources/img/google.png) !important;
+    background-size: 326px 38px;
+    width: 326px;
+    height: 38px;
+}
+.gpTab {
+    background: url(../resources/img/googleTab.png) !important;
+    background-size: 32px 32px;
+    width: 32px;
+    height: 32px;
+}
+.fbBtn {
+    background: url(../resources/img/facebook.png) !important;
+    background-size: 326px 38px;
+    width: 326px;
+    height: 38px;
+}
+.fbTab {
+    background: url(../resources/img/facebookTab.png) !important;
+    background-size: 32px 32px;
+    width: 32px;
+    height: 32px;
+}
+.fbFriendsTab {
+    background: url(../resources/img/facebookFriendsTab.png) !important;
+    background-size: 32px 32px;
+    width: 32px;
+    height: 32px;
+}
+.fsBtn {
+    background: url(../resources/img/foursquare.png) !important;
+    background-size: 326px 38px;
+    width: 326px;
+    height: 38px;
+}
+.fsTab {
+    background: url(../resources/img/foursquareTab.png) !important;
+    background-size: 32px 32px;
+    width: 32px;
+    height: 32px;
+}
+.mixedTab {
+    background: url(../resources/img/mixedTab.png) !important;
+    background-size: 40px 40px;
+    width: 40px;
+    height: 40px;
+}
+.mapsTab {
+    background: url(../resources/img/mapsTab.png) !important;
+    background-size: 40px 40px;
+    width: 40px;
+    height: 40px;
+}
+#toogleImage {
+position:absolute;
+visibility:hidden;
+border:solid 1px #CCC;
+padding:5px;
+}
